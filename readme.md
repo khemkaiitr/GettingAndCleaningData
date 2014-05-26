@@ -1,4 +1,29 @@
-### This file contains the description of the steps taken during the analysis of UCI HAR Dataset. In the following lines, we will go through the steps of the run_analysis.R script
+## Getting and Cleaning Data - Course Project
+#### The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
+
+
+
+## The Data
+
+#### The data for this project was downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+#### Original data was collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
+
+#### http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+
+## License and Disclaimer for the original dataset:
+#### Use of the original dataset request referencing the following publication [1]
+
+#### [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
+#### This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
+
+#### Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
+
+#### For more information about the dataset itself contact: activityrecognition@smartlab.ws
+
+### run_analysis.R
+#### This file contains the description of the steps taken during the analysis of UCI HAR Dataset. In the following lines, we will go through the steps of the run_analysis.R script
 ============================================================================================================================
 
 * Step1: Download the data zip file from the server and set the working directory to the desktop. On the desktop, it extracts the file and folders from the zip dataset. As this process is time consuming, the code will also check if the file has been already downloaded. If the file has been downloaded this part is skipped.
